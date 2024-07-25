@@ -4,8 +4,9 @@ To run in your system(WINDOWS):
 - Clone the repo
 - Make sure postgresql is installed on your system
 - Open CMD
-- Run the following:  - psql -U postgres
-                      - CREATE DATABASE testcasesdb;
+- Run the following:
+        - psql -U postgres
+        - CREATE DATABASE testcasesdb;
 - This creates the database on your system
 - Navigate to the repo directory 
 - Run the following command to set up the database and create table: python setup_db.py
