@@ -6,7 +6,7 @@ def create_and_populate_table():
     conn = psycopg2.connect(
         host="localhost",
         database="testcasesdb",
-        user="postgres",
+        user="postgres",    
         password="salik"  # Replace with your PostgreSQL password
     )
     conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)

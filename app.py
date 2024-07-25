@@ -10,7 +10,7 @@ CORS(app)
 conn = psycopg2.connect(
     host="localhost",
     database="testcasesdb",
-    user="postgres",
+    user="postgres", # Replace with custom username if set
     password="salik"  # Replace with your PostgreSQL password
 )
 cursor = conn.cursor(cursor_factory=RealDictCursor)
